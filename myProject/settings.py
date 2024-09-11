@@ -122,6 +122,8 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
+LOGIN_URL='loginPage'
+
 AUTH_USER_MODEL = 'myApp.Custom_User'
 
 # Default primary key field type
